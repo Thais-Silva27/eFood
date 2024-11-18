@@ -3,14 +3,14 @@ import { GlobalCSS } from './styles'
 import Home from './pages/Home'
 import Menu from './pages/Menu'
 
-// Define suas rotas aqui
 const rotas = createBrowserRouter([
   {
-    path: '/', // Rota para a página inicial
+    path: '/',
     element: <Home />
   },
+
   {
-    path: '/', // Rota para a página Principal
+    path: '/menu',
     element: <Menu />
   }
 ])
@@ -19,6 +19,7 @@ function App() {
   return (
     <>
       <GlobalCSS />
+      <Home />
       <RouterProvider router={rotas} />
     </>
   )
