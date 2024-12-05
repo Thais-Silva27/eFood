@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import Footer from '../../components/Footer'
 import Hero from '../../components/Hero'
 import Listagem from '../../components/Listagem'
