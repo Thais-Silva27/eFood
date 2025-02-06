@@ -23,7 +23,7 @@ export const HeaderBar = styled.header`
 
   img {
     align-item: center;
-    margin-left: 450px;
+    margin-left: 700px;
     margin-top: 75px;
     padding: 2px;
     position: absolute;
