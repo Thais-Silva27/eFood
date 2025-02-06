@@ -12,7 +12,7 @@ export const RodaPe = styled.footer`
   margin: auto;
 
   img {
-    margin-left: 500px;
+    margin-left: 700px;
     margin-top: 45px;
     padding-bottom: 115px;
     margin-botton: 200px;
