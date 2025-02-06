@@ -43,8 +43,8 @@ export const RodaPe = styled.footer`
   }
 
   li img {
-    margin-left: 210px;
-    margin-right: 290px;
+    margin-left: 340px;
+    margin-right: 240px;
     border: 1px solid white;
     border-radius: 23px;
     cursor: pointer;
