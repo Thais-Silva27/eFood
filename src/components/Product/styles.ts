@@ -96,3 +96,5 @@ export const Card = styled.div`
   }
 `
 
+  
+    
