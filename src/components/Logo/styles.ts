@@ -12,21 +12,21 @@ export const LogoBar = styled.header`
     text-align: align-items: flex-start;
     font-size: 16px;
     margin-top: -150px;
-    margin-left: 100px;
+    margin-left: 240px;
     cursor: pointer;
   }
 
   .carrinho p {
     color: ${cores.lightPink};
     align-items: flex-end;
-    margin-left:750px;
+    margin-left:1170px;
     margin-top: -20px;
     cursor: pointer;
   }
 
   img {
     align-item: center;
-    margin-left: 400px;
+    margin-left: 700px;
     padding-top: 100px;
     padding-bottom: 115px;
   }
