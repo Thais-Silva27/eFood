@@ -22,7 +22,6 @@ export const Botao = styled.div`
     padding: 10px;
     font-size: 13px;
     margin-right: 115px;
-    border-radius: 5px;
     cursor: pointer;
   }
 `
