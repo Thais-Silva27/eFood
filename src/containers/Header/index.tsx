@@ -24,7 +24,8 @@ const Header = () => {
           </S.TextoRestaurantes>
           <Logo />
           {itens.length == 0 ? (
-            <S.TextoQuantidade onClick={openCart}>              
+            <S.TextoQuantidade onClick={openCart}>  
+              .
             </S.TextoQuantidade>
           ) : (
             <S.TextoQuantidade onClick={openCart}>
