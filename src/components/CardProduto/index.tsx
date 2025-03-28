@@ -65,10 +65,7 @@ export const CardProduto = (produto: Produto) => {
                     {produto.porcao === '1 pessoa'
                       ? produto.porcao
                       : 'de ' + produto.porcao}
-                  </S.DescricaoProduto>
-                  <S.BotaoAdicionarCarrinho isModal onClick={addToCart}>
-                    Adicionar ao carrinho - {formataPreco(produto.preco)}
-                  </S.BotaoAdicionarCarrinho>
+                  </S.DescricaoProduto>                  
                 </div>
                 <S.IconClose
                   src={closeImg}
