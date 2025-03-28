@@ -25,7 +25,7 @@ const Header = () => {
           <Logo />
           {itens.length == 0 ? (
             <S.TextoQuantidade onClick={openCart}>  
-              .
+              Não há produtos no carrinho
             </S.TextoQuantidade>
           ) : (
             <S.TextoQuantidade onClick={openCart}>
